@@ -1,6 +1,6 @@
 # Joey Esposito
 
-Trying to bring good engineering practices to AI Safety Evaluations :)
+AI Safety Evaluation Engineer
 
 ## Current focus
 
