@@ -18,12 +18,11 @@ Currently working to upskill as an AI Safety Evals Engineer by contributing to U
 
 ### [Inspect Tools](https://github.com/joesposito8/inspect-tools) &nbsp;·&nbsp; tool-channel robustness for Inspect evals
 
-> Measures how an LLM's reliability degrades as its tool channel is stressed. *In active development.*
+> The tool schema and definition channel in current LLM models is both an input that can exhaust context, as well as an attack vector. This packages provides schemas and solvers for researchers to quickly iterate on evaluations related to this surface.
 
-- **`context_exhaustion` solver** — quantifies score degradation as the model's `tools` parameter is saturated with realistic MCP schemas at controlled context depths.
-- **Corpus** — a curated set of **1,239 real-world MCP tool schemas across 173 vendors**.
-- **Metrics** — depth-aware, with Wilson / bootstrap confidence intervals.
-- **Roadmap** — injection attacks (`inject_description`, `inject_shadow`).
+- **`context_exhaustion` solver**: quantifies score degradation as the model's `tools` parameter is saturated with realistic MCP schemas at controlled context depths.
+- **Corpus**: a curated set of **1,239 real-world MCP tool schemas across 173 vendors**.
+- **Roadmap**: injection attacks (`inject_description`, `inject_shadow`).
 
 ## Selected contributions
 
@@ -43,6 +42,6 @@ Currently working to upskill as an AI Safety Evals Engineer by contributing to U
 
 ## Contact
 
-Open to collaboration on eval tooling and methodology.
+Hit me up! Open to collaboration on evals, tooling, or if you just want to contact me :)
 
 [Email](mailto:joesposito8@gmail.com) · [LinkedIn](https://www.linkedin.com/in/joseph-esposito8)
