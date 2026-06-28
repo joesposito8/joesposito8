@@ -14,7 +14,9 @@ San Francisco, USA
 
 Currently working to upskill as an AI Safety Evals Engineer by contributing to UK AISI's [Inspect](https://github.com/UKGovernmentBEIS/inspect_ai) eval framework and constructing and publishing results from independent evaluations.
 
-## Inspect Tools
+## Projects & results
+
+### Inspect Tools
 
 [`inspect-tools`](https://github.com/joesposito8/inspect-tools) measures **tool-channel robustness** in Inspect evals. The `context_exhaustion` solver quantifies how scores degrade as the model's `tools` parameter is saturated with realistic MCP schemas at controlled context depths — backed by a curated corpus of **1,239 tool schemas across 173 vendors** and depth-aware metrics with Wilson / bootstrap confidence intervals. *In active development; injection attacks (`inject_description`, `inject_shadow`) on the roadmap.*
 
