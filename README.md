@@ -1,26 +1,41 @@
+<div align="center">
+
 # Joey Esposito
 
-AI Safety Evaluation Engineer
+**AI @ LinkedIn · Safety Evaluation Engineer · Inspect Contributor**
 
-## Current focus
+San Francisco, USA
 
-- **Measuring Prefill Awareness in transcript-based evals.** Building an Inspect-based eval to audit existing benchmarks for Prefill Awareness as a confounding factor: [prefill-awareness-audit](https://github.com/joesposito8/prefill-awareness-audit).
-- **Eval tooling and methodology contributions** to UK AISI's Inspect AI and Inspect Evals.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joseph-esposito8) [![Email](https://img.shields.io/badge/Email-555555?style=flat-square&logo=gmail&logoColor=white)](mailto:joesposito8@gmail.com)
 
-## Selected upstream contributions
+</div>
 
-Inspect AI Ecosystem:
-- [`inspect_ai#3709`](https://github.com/UKGovernmentBEIS/inspect_ai/pull/3709) — Add vLLM chat template controls for base-model evals.
-- [`inspect_ai#3969`](https://github.com/UKGovernmentBEIS/inspect_ai/pull/3969) - Add pass_k reducer metric for reliability in agentic evals.
+---
 
-- [`inspect_evals#1503`](https://github.com/UKGovernmentBEIS/inspect_evals/pull/1503) — Fix `mean_of` `on_missing="skip"` to also skip None-valued samples.
-- [`inspect_evals#1501`](https://github.com/UKGovernmentBEIS/inspect_evals/pull/1501) — `cyberseceval_4`: tolerate fenced and prose-wrapped judge JSON.
-- [`inspect_evals#1429`](https://github.com/UKGovernmentBEIS/inspect_evals/pull/1429) — Fix CodeIPI exfiltration scorer to check tool result messages.
+AI Safety Evaluation Engineer focused on the reliability and adversarial robustness of LLM evaluations. Contributor to UK AISI's [Inspect](https://github.com/UKGovernmentBEIS/inspect_ai) eval framework.
 
-- [`inspect_scout#455`](https://github.com/meridianlabs-ai/inspect_scout/pull/455) - Fix events_data parser to fit new Petri eval schema.
+## Inspect Tools
+
+[`inspect-tools`](https://github.com/joesposito8/inspect-tools) measures **tool-channel robustness** in Inspect evals. The `context_exhaustion` solver quantifies how scores degrade as the model's `tools` parameter is saturated with realistic MCP schemas at controlled context depths — backed by a curated corpus of **1,239 tool schemas across 173 vendors** and depth-aware metrics with Wilson / bootstrap confidence intervals. *In active development; injection attacks (`inject_description`, `inject_shadow`) on the roadmap.*
+
+## Selected contributions
+
+**inspect_ai**
+- [#3709](https://github.com/UKGovernmentBEIS/inspect_ai/pull/3709) — vLLM chat-template controls for base-model evals
+- [#3969](https://github.com/UKGovernmentBEIS/inspect_ai/pull/3969) — `pass_k` epoch reducer (τ-bench pass^k consistency metric)
+- [#4035](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4035) — Krippendorff's α metric for multi-judge agreement *(open)*
+- [#4269](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4269) — capture resolved sandbox runtime fingerprint in the eval log *(open)*
+
+**inspect_evals**
+- [#1429](https://github.com/UKGovernmentBEIS/inspect_evals/pull/1429) — fix CodeIPI exfiltration scorer to check tool-result messages
+- [#1501](https://github.com/UKGovernmentBEIS/inspect_evals/pull/1501) — `cyberseceval_4`: tolerate fenced / prose-wrapped judge JSON
+- [#1503](https://github.com/UKGovernmentBEIS/inspect_evals/pull/1503) — fix `mean_of` `on_missing="skip"` to also skip `None`-valued samples
+
+**inspect_scout**
+- [#455](https://github.com/meridianlabs-ai/inspect_scout/pull/455) — resolve `ModelEvent` input refs from the `events_data` pool schema
 
 ## Contact
 
-- Email: [joesposito8@gmail.com](mailto:joesposito8@gmail.com)
-- LinkedIn: [joseph-esposito8](https://www.linkedin.com/in/joseph-esposito8)
+Open to collaboration on eval tooling and methodology.
 
+[Email](mailto:joesposito8@gmail.com) · [LinkedIn](https://www.linkedin.com/in/joseph-esposito8)
