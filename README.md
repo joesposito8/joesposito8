@@ -3,9 +3,9 @@
 # Joey Esposito
 
 **AI Engineer @ LinkedIn · Independent AI Safety Evaluation Engineer · Inspect Contributor**
-
+<br>
 San Francisco, USA
-
+<br>
 [LinkedIn](https://www.linkedin.com/in/joseph-esposito8) · [Email](mailto:joesposito8@gmail.com)
 
 </div>
