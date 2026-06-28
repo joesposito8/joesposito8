@@ -16,7 +16,7 @@ Currently working to upskill as an AI Safety Evals Engineer by contributing to U
 
 ## Projects
 
-### [Inspect Tools](https://github.com/joesposito8/inspect-tools) &nbsp;·&nbsp; tool-channel robustness for Inspect evals
+### [Inspect Tools](https://github.com/joesposito8/inspect-tools) &nbsp;·&nbsp; tool-channel starter kit for Inspect evals
 
 > The tool schema and definition channel in current LLM models is both an input that can exhaust context, as well as an attack vector. This packages provides schemas and solvers for researchers to quickly iterate on evaluations related to this surface.
 
