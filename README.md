@@ -12,7 +12,7 @@ San Francisco, USA
 
 ---
 
-Currently working to upskill as an AI Safety Evals Engineer by contributing to UK AISI's [Inspect](https://github.com/UKGovernmentBEIS/inspect_ai) eval framework and constructing and publishing results from independent evaluations.
+Currently preparing to transition to roles as an AI Safety Evals Engineer by contributing to UK AISI's [Inspect](https://github.com/UKGovernmentBEIS/inspect_ai) eval framework and constructing/publishing results from independent evaluations.
 
 ## Projects
 
