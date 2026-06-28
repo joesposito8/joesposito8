@@ -18,7 +18,7 @@ Currently working to upskill as an AI Safety Evals Engineer by contributing to U
 
 ### [Inspect Tools](https://github.com/joesposito8/inspect-tools) &nbsp;·&nbsp; tool-channel starter kit for Inspect evals
 
-> The tool schema and definition channel in current LLM models is both an input that can exhaust context, as well as an attack vector. This packages provides schemas and solvers for researchers to quickly iterate on evaluations related to this surface.
+> In current LLMs, the tool-definition channel is both an input that can exhaust context and an attack vector. This packages provides schemas and solvers for researchers to quickly iterate on evaluations related to this surface.
 
 - **`context_exhaustion` solver**: quantifies score degradation as the model's `tools` parameter is saturated with realistic MCP schemas at controlled context depths.
 - **Corpus**: a curated set of **1,239 real-world MCP tool schemas across 173 vendors**.
