@@ -2,7 +2,7 @@
 
 # Joey Esposito
 
-**AI @ LinkedIn · Safety Evaluation Engineer · Inspect Contributor**
+**AI Engineer @ LinkedIn · Independent AI Safety Evaluation Engineer · Inspect Contributor**
 
 San Francisco, USA
 
@@ -12,7 +12,7 @@ San Francisco, USA
 
 ---
 
-AI Safety Evaluation Engineer focused on the reliability and adversarial robustness of LLM evaluations. Contributor to UK AISI's [Inspect](https://github.com/UKGovernmentBEIS/inspect_ai) eval framework.
+Currently working to upskill as an AI Safety Evals Engineer by contributing to UK AISI's [Inspect](https://github.com/UKGovernmentBEIS/inspect_ai) eval framework and constructing and publishing results from independent evaluations.
 
 ## Inspect Tools
 
