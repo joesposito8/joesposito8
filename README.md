@@ -14,11 +14,16 @@ San Francisco, USA
 
 Currently working to upskill as an AI Safety Evals Engineer by contributing to UK AISI's [Inspect](https://github.com/UKGovernmentBEIS/inspect_ai) eval framework and constructing and publishing results from independent evaluations.
 
-## Projects & results
+## Projects
 
-### Inspect Tools
+### [Inspect Tools](https://github.com/joesposito8/inspect-tools) &nbsp;·&nbsp; tool-channel robustness for Inspect evals
 
-[`inspect-tools`](https://github.com/joesposito8/inspect-tools) measures **tool-channel robustness** in Inspect evals. The `context_exhaustion` solver quantifies how scores degrade as the model's `tools` parameter is saturated with realistic MCP schemas at controlled context depths — backed by a curated corpus of **1,239 tool schemas across 173 vendors** and depth-aware metrics with Wilson / bootstrap confidence intervals. *In active development; injection attacks (`inject_description`, `inject_shadow`) on the roadmap.*
+> Measures how an LLM's reliability degrades as its tool channel is stressed. *In active development.*
+
+- **`context_exhaustion` solver** — quantifies score degradation as the model's `tools` parameter is saturated with realistic MCP schemas at controlled context depths.
+- **Corpus** — a curated set of **1,239 real-world MCP tool schemas across 173 vendors**.
+- **Metrics** — depth-aware, with Wilson / bootstrap confidence intervals.
+- **Roadmap** — injection attacks (`inject_description`, `inject_shadow`).
 
 ## Selected contributions
 
