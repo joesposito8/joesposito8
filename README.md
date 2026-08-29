@@ -38,5 +38,3 @@ An eval built on Inspect attempting to measure how abliteration and prefill atta
 ## Contact
 
 Hit me up! Open to collaboration on evals, tooling, or if you just want to contact me :)
-
-[Email](mailto:joesposito8@gmail.com) · [LinkedIn](https://www.linkedin.com/in/joseph-esposito8)
