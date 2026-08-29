@@ -2,7 +2,7 @@
 
 # Joey Esposito
 
-**AI Engineer @ LinkedIn · Independent AI Safety Evaluation Engineer · Inspect Contributor**
+**AI Engineer @ LinkedIn · Independent AI Safety Evaluation Engineer**
 <br>
 San Francisco, USA
 <br>
@@ -12,17 +12,12 @@ San Francisco, USA
 
 ---
 
-Currently preparing to transition to roles as an AI Safety Evals Engineer by contributing to UK AISI's [Inspect](https://github.com/UKGovernmentBEIS/inspect_ai) eval framework and constructing/publishing results from independent evaluations.
+Currently an independent AI Safety Evals Engineer contributing to UK AISI's [Inspect](https://github.com/UKGovernmentBEIS/inspect_ai) eval framework and publishing results from independent evaluations.
 
 ## Projects
 
-### [Inspect Tools](https://github.com/joesposito8/inspect-tools) &nbsp;·&nbsp; tool-channel starter kit for Inspect evals
-
-> In current LLMs, the tool-definition channel is both an input that can exhaust context and an attack vector. This packages provides schemas and solvers for researchers to quickly iterate on evaluations related to this surface.
-
-- **`context_exhaustion` solver**: quantifies score degradation as the model's `tools` parameter is saturated with realistic MCP schemas at controlled context depths.
-- **Corpus**: a curated set of **1,239 real-world MCP tool schemas across 173 vendors**.
-- **Roadmap**: injection attacks (`inject_description`, `inject_shadow`).
+### [Abliteration & Prefill Evaluation](https://github.com/joesposito8/abliteration-prefill)
+An eval built on Inspect attempting to measure how abliteration and prefill attacks on open-weight models unlock refusal on harmful queries, and whether they are stronger when used together.
 
 ## Selected contributions
 
