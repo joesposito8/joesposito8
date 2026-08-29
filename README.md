@@ -6,7 +6,6 @@
 <br>
 San Francisco, USA
 <br>
-[LinkedIn](https://www.linkedin.com/in/joseph-esposito8) · [Email](mailto:joesposito8@gmail.com)
 
 </div>
 
@@ -38,3 +37,5 @@ An eval built on Inspect attempting to measure how abliteration and prefill atta
 ## Contact
 
 Hit me up! Open to collaboration on evals, tooling, or if you just want to contact me :)
+
+[LinkedIn](https://www.linkedin.com/in/joseph-esposito8) · [Email](mailto:joesposito8@gmail.com)
