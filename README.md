@@ -34,6 +34,10 @@ An eval built on Inspect attempting to measure how abliteration and prefill atta
 **inspect_scout**
 - [#455](https://github.com/meridianlabs-ai/inspect_scout/pull/455) - resolve `ModelEvent` input refs from the `events_data` pool schema
 
+**inspect_swarm**
+- [#88](https://github.com/meridianlabs-ai/inspect_swarm/pull/88) - fix for validating keys in member limit dictionaries
+- [#214](https://github.com/meridianlabs-ai/inspect_swarm/pull/214) - added World Report feature, allowing swarm controllers to act based on the state of the environment
+
 ## Contact
 
 Hit me up! Open to collaboration on evals, tooling, or if you just want to contact me :)
